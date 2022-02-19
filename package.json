@@ -1,0 +1,24 @@
+{
+  "name": "hexlet-tests-2",
+  "version": "1.0.0",
+  "description": "hexlet-test-2",
+  "type": "module",
+  "scripts": {
+    "test": "npx jest --colors",
+    "test-list": "NODE_OPTIONS=--experimental-vm-modules npx jest --colors  tests/list.test.js  "
+  },
+  "dependencies": {
+    "jest": "27.5.1",
+    "lodash": "4.17.21",
+    "power-assert": "1.6.1",
+    "papaparse": "*",
+    "js-yaml": "*",
+    "fakerator": "*",
+    "prettier": "*"
+  },
+  "devDependencies": {
+  },
+  "resolutions": {
+  },
+  "keywords": []
+}
